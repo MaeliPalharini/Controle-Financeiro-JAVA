@@ -6,14 +6,16 @@ Ele permite:
 - ✅ Cadastrar **receitas** e **despesas**
 - ✅ Visualizar a lista de transações
 - ✅ Calcular e exibir o **saldo atual**
+- ✅ Filtrar transações por **categoria**
+- ✅ Remover transações da lista
 
 ---
 
 ## ✨ Tecnologias utilizadas
 
 - Java 17
+- Programação Orientada a Objetos (POO)
 - IntelliJ IDEA
-- Git & GitHub
 
 ---
 
