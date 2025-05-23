@@ -29,7 +29,7 @@ public class ControleFinanceiroApp {
             System.out.println("0. Sair");
             System.out.println("Digite uma opção: ");
             opcao = entrada.nextInt();
-            entrada.nextLine(); //Serve pra limpar quebra de linha
+            entrada.nextLine(); 
 
             switch (opcao) {
                 case 1, 2 -> {
@@ -66,9 +66,9 @@ public class ControleFinanceiroApp {
                         System.out.println(t);
 
                         if(t.getTipo().equalsIgnoreCase("receita")){
-                            saldo += t.getValor(); // Soma se for receita
+                            saldo += t.getValor();
                         } else if(t.getTipo().equalsIgnoreCase("despesa")){
-                            saldo -=t.getValor(); // Subtrai se for despesa
+                            saldo -=t.getValor();
                         }
                     }
                     System.out.println("----------------------------");
@@ -83,7 +83,7 @@ public class ControleFinanceiroApp {
                     }
 
                     int catIndex = entrada.nextInt();
-                    entrada.nextLine(); // limpar quebra de linha
+                    entrada.nextLine(); 
                     Categoria categoriaSelecionada = categorias.get(catIndex - 1);
 
                     System.out.println("=== Transações da categoria: " + categoriaSelecionada.getNome() + " ===");
